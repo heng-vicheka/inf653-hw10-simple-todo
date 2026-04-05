@@ -1,0 +1,34 @@
+{
+  "name": "inf653-hw10-simple-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heng-vicheka/inf653-hw10-simple-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/heng-vicheka/inf653-hw10-simple-todo/issues"
+  },
+  "homepage": "https://github.com/heng-vicheka/inf653-hw10-simple-todo#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.101.1",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^9.4.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
